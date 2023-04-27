@@ -7,7 +7,7 @@ This program is a tool you can use to scan for devices on your network. The prog
 You can download the program from the GitHub page.
 
 ```bash
-git clone https://github.com/HalilDeniz/network-scanner.git
+git clone https://github.com/HalilDeniz/Network-Scanner.git
 ```
 
 ## Installation
