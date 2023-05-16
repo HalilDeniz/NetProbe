@@ -49,10 +49,19 @@ The program lists the IP addresses, MAC addresses, and device names of the devic
 │ 192.168.1.25 │ 0a:**:50:00:**:** │ Unknown         │
 └──────────────┴───────────────────┴─────────────────┘
 ```
+## Contributing
+Contributions are welcome! To contribute to Network-Scanner, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Open a pull request in the main repository.
+
+
 
 ## Contact
 If you have any questions, suggestions, or feedback about the program, please feel free to reach out to me through any of the following platforms:
-
 
 
 - LinkedIn: https://www.linkedin.com/in/halil-ibrahim-deniz/
