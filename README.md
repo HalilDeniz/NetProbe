@@ -1,5 +1,4 @@
-# Network Scanner Tool
-
+# NetProbe: Network Probe
 This program is a tool you can use to scan for devices on your network. The program sends ARP requests to any IP address on your network and lists the IP addresses, MAC addresses, and device names of the responding devices.
 
 ## Download
