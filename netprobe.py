@@ -55,9 +55,16 @@ def get_device_info(mac_address):
     return manufacturer
 
 
-def display_live_updates(target, iface):
+def display_live_updates(target, iface, output_file=None):
+    known_devices = []
     while True:
         devices = scan(target, iface)
+
+        # Save newly discovered devices
+        new_devices = [d for d in devices if d not in known_devices]
+        if new_devices and output_file:
+            save_results(new_devices, output_file)
+            known_devices.extend(new_devices)
 
         console.clear()
         table = Table(show_header=True, header_style="bold magenta")
@@ -73,7 +80,7 @@ def display_live_updates(target, iface):
 
 
 def save_results(devices, output_file):
-    with open(output_file, 'w') as f:
+    with open(output_file, 'a') as f:  # 'a' for append mode
         for device in devices:
             f.write(f"IP Address: {device['ip']}\n")
             f.write(f"MAC Address: {device['mac']}\n")
@@ -106,7 +113,7 @@ def main():
             console.print(f"\n[bold green]Results saved to: {output_file}")
 
         if live_tracking:
-            t = threading.Thread(target=display_live_updates, args=(target, iface))
+            t = threading.Thread(target=display_live_updates, args=(target, iface, output_file))
             t.daemon = True  # This makes sure the thread will exit when the main program exits
             t.start()
             while t.is_alive():  # This loop will keep the main thread running while the display thread is running
