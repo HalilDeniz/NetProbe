@@ -49,11 +49,12 @@ usage: network_scanner.py [-h] [-t] [-i] [-l] [-o]
 Network Scanner Tool
 
 options:
-  -h, --help         show this help message and exit
-  -t , --target      Target IP address or subnet (default: 192.168.1.0/24)
-  -i , --interface   Interface to use (default: None)
-  -l, --live         Enable live tracking of devices
-  -o , --output      Output file to save the results
+  -h, --help            show this help message and exit
+  -t , --target         Target IP address or subnet (default: 192.168.1.0/24)
+  -i , --interface      Interface to use (default: None)
+  -l, --live            Enable live tracking of devices
+  -o , --output         Output file to save the results
+  -f , --output-format  Output format (text/json/csv) (default: text)
 ```                                               
 
 
