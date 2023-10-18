@@ -2,6 +2,8 @@
 
 This program is a tool you can use to scan for devices on your network. The program sends ARP requests to any IP address on your network and lists the IP addresses, MAC addresses, manufacturers, and device models of the responding devices.
 
+## Features
+
 - Scan for devices on a specified IP address or subnet
 - Display the IP address, MAC address, manufacturer, and device model of discovered devices
 - Live tracking of devices (optional)
