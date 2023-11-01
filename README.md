@@ -94,14 +94,12 @@ python3 netprobe.py -t 192.168.1.0/24 -i eth0 -o results.txt
 
 ## Contact
 If you have any questions, suggestions, or feedback about the program, please feel free to reach out to me through any of the following platforms:
-
-
-
-- Mywebsite: [Denizhalil](https://denizhalil.com)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/halil-ibrahim-deniz/)
-- TryHackMe: [TryHackMe](https://tryhackme.com/p/halilovic)
-- Instagram: [Instagram](https://www.instagram.com/deniz.halil333/)
-- YouTube: [YouTube](https://www.youtube.com/c/HalilDeniz)
+- Linktr [halildeniz](https://linktr.ee/halildeniz)
+- DenizHalil [DenizHalil](https://denizhalil.com)
+- LinkedIn: [Halil Ibrahim Deniz](https://www.linkedin.com/in/halil-ibrahim-deniz/)
+- TryHackMe: [Halilovic](https://tryhackme.com/p/halilovic)
+- Instagram: [deniz.halil333](https://www.instagram.com/deniz.halil333/)
+- YouTube: [Halil Deniz](https://www.youtube.com/c/HalilDeniz)
 - Email: halildeniz313@gmail.com
 
 
